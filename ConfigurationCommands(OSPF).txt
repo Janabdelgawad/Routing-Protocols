@@ -1,0 +1,9 @@
+en
+config t
+router ospf 1
+network 193.158.1.0 0.0.0.255 area 0
+network 193.158.2.0 0.0.0.255 area 0
+network 10.0.0.0 0.255.255.255 area 0
+network 11.0.0.0 0.255.255.255 area 0
+end
+exit

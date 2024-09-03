@@ -1,0 +1,10 @@
+en
+config t
+router eigrp 1
+network 193.158.1.0 0.0.0.255
+network 193.158.2.0 0.0.0.255
+network 10.0.0.0 0.255.255.255
+network 11.0.0.0 0.255.255.255
+end
+exit
+
